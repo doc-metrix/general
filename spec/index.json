@@ -1,1 +1,127 @@
-{}
+{
+    "load.1m": {
+        "display_name": "load.1m",
+        "units": "average system load over the last minute",
+        "max": "MAX_FLOAT",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last minute.",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc",
+            "http://en.wikipedia.org/wiki/Load_%28computing%29"
+        ]
+    },
+    "load.5m": {
+        "display_name": "load.5m",
+        "units": "average system load over the last 5 minutes",
+        "max": "MAX_FLOAT",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 5 minutes.",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc",
+            "http://en.wikipedia.org/wiki/Load_%28computing%29"
+        ]
+    },
+    "load.15m": {
+        "display_name": "load.15m",
+        "units": "average system load over the last 15 minutes",
+        "max": "MAX_FLOAT",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 15 minutes.",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc",
+            "http://en.wikipedia.org/wiki/Load_%28computing%29"
+        ]
+    },
+    "load.running": {
+        "display_name": "load.running",
+        "units": "kernel scheduled entities currently running",
+        "max": "maximum number of threads the system can simultaneously process",
+        "min": "1 (assuming the monitoring process reporting this is counted)",
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The number of currently running kernel scheduled entities (processes and threads).",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc",
+            "http://stackoverflow.com/questions/11987495/linux-proc-loadavg"
+        ]
+    },
+    "load.threads": {
+        "display_name": "load.threads",
+        "units": "kernel scheduled entities existing in the system",
+        "max": "maximum kernel scheduled entities the system can handle",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The number of kernel scheduled entities (processes and threads) that exists in the system.",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc",
+            "http://stackoverflow.com/questions/11987495/linux-proc-loadavg"
+        ]
+    },
+    "load.lastPID": {
+        "display_name": "load.lastPID",
+        "units": "process ID (PID)",
+        "max": "process ID",
+        "min": "process ID",
+        "sig_figs": null,
+        "data_type": "numeric",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The process ID (PID) of the process that was most recently created on the system.",
+        "notes": null,
+        "source": "/proc/loadavg",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc"
+        ]
+    }
+}
