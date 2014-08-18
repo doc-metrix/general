@@ -1,4 +1,24 @@
 {
+    "uptime": {
+        "display_name": "uptime",
+        "units": "seconds",
+        "max": "MAX_FLOAT",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "time",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The amount of time in seconds that the system has been running.",
+        "notes": null,
+        "source": "/proc/uptime",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "uptime",
+        "refs": [
+            "http://linux.die.net/man/5/proc"
+        ]
+    },
     "load.1m": {
         "display_name": "load.1m",
         "units": "average system load over the last minute",
