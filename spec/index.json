@@ -1,27 +1,7 @@
-{
-    "uptime": {
-        "display_name": "uptime",
-        "units": "seconds",
-        "max": "MAX_FLOAT",
-        "min": 0,
-        "sig_figs": null,
-        "data_type": "time",
-        "type": "raw",
-        "formula" : null,
-        "variants": null,
-        "description": "The amount of time in seconds that the system has been running since the last reboot.",
-        "notes": "",
-        "source": "/proc/uptime",
-        "device": "system kernel",
-        "vendors": "*",
-        "classification": "uptime",
-        "refs": [
-            "http://linux.die.net/man/5/proc"
-        ]
-    },
+{    
     "load.1m": {
         "display_name": "load.1m",
-        "units": "average system load over the last minute",
+        "units": "processes and threads/minute",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -42,7 +22,7 @@
     },
     "load.5m": {
         "display_name": "load.5m",
-        "units": "average system load over the last 5 minutes",
+        "units": "processes and threads/5 minutes",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -63,7 +43,7 @@
     },
     "load.15m": {
         "display_name": "load.15m",
-        "units": "average system load over the last 15 minutes",
+        "units": "processes and threads/15 minutes",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -84,16 +64,16 @@
     },
     "load.running": {
         "display_name": "load.running",
-        "units": "kernel scheduled entities currently running",
-        "max": "maximum number of threads the system can simultaneously process",
-        "min": "1 (assuming the monitoring process reporting this is counted)",
+        "units": "processes and threads",
+        "max": null,
+        "min": 1,
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
-        "notes": "",
+        "notes": "The minimum is 1 assuming the monitoring process reporting this metric is counted",
         "source": "/proc/loadavg",
         "device": "system kernel",
         "vendors": "*",
@@ -105,8 +85,8 @@
     },
     "load.threads": {
         "display_name": "load.threads",
-        "units": "kernel scheduled entities existing in the system",
-        "max": "maximum kernel scheduled entities the system can handle",
+        "units": "processes and threads",
+        "max": null,
         "min": 0,
         "sig_figs": null,
         "data_type": "numeric",
@@ -126,9 +106,9 @@
     },
     "load.lastPID": {
         "display_name": "load.lastPID",
-        "units": "process ID (PID)",
-        "max": "process ID",
-        "min": "process ID",
+        "units": "process ID",
+        "max": null,
+        "min": null,
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
@@ -140,6 +120,26 @@
         "device": "system kernel",
         "vendors": "*",
         "classification": "load",
+        "refs": [
+            "http://linux.die.net/man/5/proc"
+        ]
+    },
+    "uptime": {
+        "display_name": "uptime",
+        "units": "seconds",
+        "max": "MAX_FLOAT",
+        "min": 0,
+        "sig_figs": null,
+        "data_type": "time",
+        "type": "raw",
+        "formula" : null,
+        "variants": null,
+        "description": "The amount of time in seconds that the system has been running since the last reboot.",
+        "notes": "",
+        "source": "/proc/uptime",
+        "device": "system kernel",
+        "vendors": "*",
+        "classification": "uptime",
         "refs": [
             "http://linux.die.net/man/5/proc"
         ]
