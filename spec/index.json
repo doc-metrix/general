@@ -1,6 +1,6 @@
 {    
     "load.1m": {
-        "display_name": "Average Load in Last Minute",
+        "display_name": "Average Load in Last 1 Minute",
         "units": "processes and threads/minute",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -14,7 +14,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "CPU",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -37,7 +37,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "CPU",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -60,7 +60,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "CPU",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -83,7 +83,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "CPU",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -106,7 +106,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "operating system",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -129,7 +129,7 @@
         "source": {
             "^linux\\skernel": ["/proc/loadavg"]
         },
-        "device": "system kernel",
+        "device": "operating system",
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -151,7 +151,7 @@
         "source": {
             "^linux\\skernel": ["/proc/uptime"]
         },
-        "device": "system kernel",
+        "device": "operating system",
         "vendors": "*",
         "classification": "",
         "refs": [
