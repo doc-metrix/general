@@ -16,7 +16,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc",
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
@@ -39,7 +39,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc",
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
@@ -62,7 +62,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc",
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
@@ -85,7 +85,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc",
             "http://stackoverflow.com/questions/11987495/linux-proc-loadavg"
@@ -108,7 +108,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc",
             "http://stackoverflow.com/questions/11987495/linux-proc-loadavg"
@@ -131,7 +131,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "load",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc"
         ]
@@ -153,7 +153,7 @@
         },
         "device": "system kernel",
         "vendors": "*",
-        "classification": "uptime",
+        "classification": "",
         "refs": [
             "http://linux.die.net/man/5/proc"
         ]
