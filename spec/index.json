@@ -1,6 +1,6 @@
 {    
     "load.1m": {
-        "display_name": "load.1m",
+        "display_name": "Average Load in Last Minute",
         "units": "processes and threads/minute",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -23,7 +23,7 @@
         ]
     },
     "load.5m": {
-        "display_name": "load.5m",
+        "display_name": "Average Load in Last 5 Minutes",
         "units": "processes and threads/5 minutes",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -46,7 +46,7 @@
         ]
     },
     "load.15m": {
-        "display_name": "load.15m",
+        "display_name": "Average Load in Last 15 Minutes",
         "units": "processes and threads/15 minutes",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -69,7 +69,7 @@
         ]
     },
     "load.running": {
-        "display_name": "load.running",
+        "display_name": "Processes and Threads Running",
         "units": "processes and threads",
         "max": null,
         "min": 1,
@@ -92,7 +92,7 @@
         ]
     },
     "load.threads": {
-        "display_name": "load.threads",
+        "display_name": "Total Processes and Threads",
         "units": "processes and threads",
         "max": null,
         "min": 0,
@@ -115,7 +115,7 @@
         ]
     },
     "load.lastPID": {
-        "display_name": "load.lastPID",
+        "display_name": "Last Process ID",
         "units": "process ID",
         "max": null,
         "min": null,
@@ -137,7 +137,7 @@
         ]
     },
     "uptime": {
-        "display_name": "uptime",
+        "display_name": "System Uptime",
         "units": "seconds",
         "max": "MAX_FLOAT",
         "min": 0,
