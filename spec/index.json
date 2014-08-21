@@ -1,7 +1,7 @@
 {    
     "load.1m": {
         "display_name": "Average Load in Last 1 Minute",
-        "units": "processes and threads/minute",
+        "units": "processes and threads/1 minute",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -67,7 +67,7 @@
     },
     "load.running": {
         "display_name": "Processes and Threads Running",
-        "units": "processes and threads",
+        "units": "count",
         "max": null,
         "min": 1,
         "sig_figs": null,
@@ -89,7 +89,7 @@
     },
     "load.threads": {
         "display_name": "Total Processes and Threads",
-        "units": "processes and threads",
+        "units": "count",
         "max": null,
         "min": 0,
         "sig_figs": null,
@@ -111,7 +111,7 @@
     },
     "load.lastPID": {
         "display_name": "Last Process ID",
-        "units": "process ID",
+        "units": null,
         "max": null,
         "min": null,
         "sig_figs": null,
@@ -132,7 +132,7 @@
     },
     "uptime": {
         "display_name": "System Uptime",
-        "units": "seconds",
+        "units": "s",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
