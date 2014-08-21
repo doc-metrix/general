@@ -7,7 +7,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last minute.",
         "notes": "",
         "source": {
@@ -29,7 +29,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 5 minutes.",
         "notes": "",
         "source": {
@@ -51,7 +51,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 15 minutes.",
         "notes": "",
         "source": {
@@ -73,7 +73,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
         "notes": "The minimum is 1 assuming the monitoring process reporting this metric is counted",
         "source": {
@@ -95,7 +95,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The number of kernel scheduled entities (processes and threads) that exists in the system.",
         "notes": "",
         "source": {
@@ -117,7 +117,7 @@
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The process ID (PID) of the process that was most recently created on the system.",
         "notes": "",
         "source": {
@@ -138,7 +138,7 @@
         "sig_figs": null,
         "data_type": "time",
         "type": "raw",
-        "formula" : null,
+        "formula": null,
         "description": "The amount of time in seconds that the system has been running since the last reboot.",
         "notes": "",
         "source": {
