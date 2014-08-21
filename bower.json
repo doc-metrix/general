@@ -1,0 +1,29 @@
+{
+  "name": "doc-metrix-general",
+  "version": "0.0.0",
+  "description": "A specification for general performance metrics.",
+  "authors": [
+    {
+      "name": "Nick Wei",
+      "email": "nick@nodeprime.com"
+    }
+  ],
+  "main": "spec/index.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doc-metrix/general.git"
+  },
+  "keywords": [
+    "doc-metrix",
+    "specification",
+    "metrics",
+    "documentation"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "ignore": [
+    "TODO.md",
+    ".*"
+  ],
+  "license": "MIT"
+}
