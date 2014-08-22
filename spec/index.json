@@ -1,7 +1,7 @@
 {    
     "load.1m": {
         "display_name": "Average Load in Last 1 Minute",
-        "units": "processes and threads/1 minute",
+        "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -27,7 +27,7 @@
     },
     "load.5m": {
         "display_name": "Average Load in Last 5 Minutes",
-        "units": "processes and threads/5 minutes",
+        "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
@@ -53,7 +53,7 @@
     },
     "load.15m": {
         "display_name": "Average Load in Last 15 Minutes",
-        "units": "processes and threads/15 minutes",
+        "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
         "sig_figs": null,
