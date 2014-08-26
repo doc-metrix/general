@@ -1,11 +1,11 @@
 {    
-    "load.1m": {
-        "display_name": "Average Load in Last 1 Minute",
+    "load.1M": {
+        "displayName": "Average Load in Last 1 Minute",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last minute.",
@@ -25,13 +25,13 @@
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
         ]
     },
-    "load.5m": {
-        "display_name": "Average Load in Last 5 Minutes",
+    "load.5M": {
+        "displayName": "Average Load in Last 5 Minutes",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 5 minutes.",
@@ -51,13 +51,13 @@
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
         ]
     },
-    "load.15m": {
-        "display_name": "Average Load in Last 15 Minutes",
+    "load.15M": {
+        "displayName": "Average Load in Last 15 Minutes",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 15 minutes.",
@@ -78,12 +78,12 @@
         ]
     },
     "load.running": {
-        "display_name": "Processes and Threads Running",
+        "displayName": "Processes and Threads Running",
         "units": "processes and threads",
         "max": null,
         "min": 1,
-        "sig_figs": null,
-        "data_type": "integer",
+        "sigFigs": null,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
@@ -104,12 +104,12 @@
         ]
     },
     "load.threads": {
-        "display_name": "Total Processes and Threads",
+        "displayName": "Total Processes and Threads",
         "units": "processes and threads",
         "max": null,
         "min": 0,
-        "sig_figs": null,
-        "data_type": "integer",
+        "sigFigs": null,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The number of kernel scheduled entities (processes and threads) that exists in the system.",
@@ -130,12 +130,12 @@
         ]
     },
     "load.lastPID": {
-        "display_name": "Last Process ID",
+        "displayName": "Last Process ID",
         "units": null,
         "max": null,
         "min": null,
-        "sig_figs": null,
-        "data_type": "integer",
+        "sigFigs": null,
+        "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The process ID (PID) of the process that was most recently created on the system.",
@@ -155,12 +155,12 @@
         ]
     },
     "uptime": {
-        "display_name": "System Uptime",
+        "displayName": "System Uptime",
         "units": "s",
         "max": "MAX_FLOAT",
         "min": 0,
-        "sig_figs": null,
-        "data_type": "time",
+        "sigFigs": null,
+        "dataType": "time",
         "type": "raw",
         "formula": null,
         "description": "The amount of time in seconds that the system has been running since the last reboot.",
