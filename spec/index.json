@@ -11,11 +11,7 @@
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last minute.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "CPU",
         "vendors": "*",
@@ -37,11 +33,7 @@
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 5 minutes.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "CPU",
         "vendors": "*",
@@ -63,11 +55,7 @@
         "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 15 minutes.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "CPU",
         "vendors": "*",
@@ -89,11 +77,7 @@
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
         "notes": "The minimum is 1 assuming the monitoring process reporting this metric is counted",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "CPU",
         "vendors": "*",
@@ -115,11 +99,7 @@
         "description": "The number of kernel scheduled entities (processes and threads) that exists in the system.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "operating system",
         "vendors": "*",
@@ -141,11 +121,7 @@
         "description": "The process ID (PID) of the process that was most recently created on the system.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/loadavg"]
-                }
-            }
+            "linux": ["/proc/loadavg"]
         },
         "device": "operating system",
         "vendors": "*",
@@ -166,11 +142,7 @@
         "description": "The amount of time in seconds that the system has been running since the last reboot.",
         "notes": "",
         "platforms": {
-            "linux": {
-                "ubuntu": {
-                    "*": ["/proc/uptime"]
-                }
-            }
+            "linux": ["/proc/uptime"]
         },
         "device": "operating system",
         "vendors": "*",
