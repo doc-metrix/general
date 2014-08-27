@@ -13,7 +13,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "CPU",
+        "device": ["CPU"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -35,7 +35,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "CPU",
+        "device": ["CPU"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -57,7 +57,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "CPU",
+        "device": ["CPU"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -79,7 +79,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "CPU",
+        "device": ["CPU"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -101,7 +101,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "operating system",
+        "device": ["operating system"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -123,7 +123,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": "operating system",
+        "device": ["operating system"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -144,7 +144,7 @@
         "platforms": {
             "linux": ["/proc/uptime"]
         },
-        "device": "operating system",
+        "device": ["operating system"],
         "vendors": "*",
         "classification": "",
         "refs": [
