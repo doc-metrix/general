@@ -1,6 +1,6 @@
 {    
     "load.1M": {
-        "displayName": "Average Load in Last 1 Minute",
+        "displayName": "Average Load (1 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -8,12 +8,12 @@
         "dataType": "numeric",
         "type": "raw",
         "formula": null,
-        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last minute.",
+        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the last minute.",
         "notes": "",
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": ["CPU"],
+        "device": ["cpu"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -22,7 +22,7 @@
         ]
     },
     "load.5M": {
-        "displayName": "Average Load in Last 5 Minutes",
+        "displayName": "Average Load (5 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -30,12 +30,12 @@
         "dataType": "numeric",
         "type": "raw",
         "formula": null,
-        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) for the last 5 minutes.",
+        "description": "The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 5 minutes.",
         "notes": "",
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": ["CPU"],
+        "device": ["cpu"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -44,7 +44,7 @@
         ]
     },
     "load.15M": {
-        "displayName": "Average Load in Last 15 Minutes",
+        "displayName": "Average Load (15 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
         "min": 0,
@@ -57,7 +57,7 @@
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": ["CPU"],
+        "device": ["cpu"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -66,7 +66,7 @@
         ]
     },
     "load.running": {
-        "displayName": "Processes and Threads Running",
+        "displayName": "Number of Processes and Threads Running",
         "units": "processes and threads",
         "max": null,
         "min": 1,
@@ -75,11 +75,11 @@
         "type": "raw",
         "formula": null,
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
-        "notes": "The minimum is 1 assuming the monitoring process reporting this metric is counted",
+        "notes": "The minimum is 1 assuming the process monitoring this metric is counted.",
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
-        "device": ["CPU"],
+        "device": ["cpu"],
         "vendors": "*",
         "classification": "",
         "refs": [
@@ -96,7 +96,7 @@
         "dataType": "integer",
         "type": "raw",
         "formula": null,
-        "description": "The number of kernel scheduled entities (processes and threads) that exists in the system.",
+        "description": "The number of kernel scheduled entities (processes and threads) that exist in the system.",
         "notes": "",
         "platforms": {
             "linux": ["/proc/loadavg"]

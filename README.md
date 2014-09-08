@@ -1,13 +1,49 @@
 General
 ===
 
-
-A specification for general performance metrics.
-
-
-## Description
+> A specification for general performance metrics.
 
 
+## Metrics
+
+#### [load.1M](http://linux.die.net/man/5/proc)
+
+The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past minute.
+
+
+#### [load.5M](http://linux.die.net/man/5/proc)
+
+The average number of jobs in the run queue ( state R) or waiting for disk I/O (state D) over the past 5 minutes.
+
+
+#### [load.15M](http://linux.die.net/man/5/proc)
+
+The average number of jobs in the run queue (State R) or waiting for disk I/O (state D) over the past 15 minutes.
+
+
+#### [load.running](http://linux.die.net/man/5/proc)
+
+The number of currently running kernel scheduled entities (processes and threads).
+
+Note: the minimum value for this metric is 1, if we assume that the process monitoring the metric is counted.
+
+
+#### [load.threads](http://linux.die.net/man/5/proc)
+
+The number of kernel scheduled entities (processes and threads) that exist in the system.
+
+
+#### [load.lastPID](http://linux.die.net/man/5/proc)
+
+The process ID (PID) of the process that was most recently created on the system.
+
+
+#### [uptime](http://linux.die.net/man/5/proc)
+
+The amount of time (in seconds) that the system has been running since the last reboot.
+
+
+===
 ## Contributing
 
 To contribute to this specification, see the contributing [guide](https://github.com/doc-metrix/contributing). Any updates to the specification should be tagged.
@@ -17,9 +53,14 @@ $ git tag -a <major.minor.patch> -m "[UPDATE] version."
 $ git push origin <major.minor.patch>
 ```
 
-Use [semantic versioning](http://semver.org/) (semvar) for communicating versions. For example, any new metrics should be communicated as `minor` updates, while any corrections should be `patches`. Any specification restructuring (changing field names, removing fields, etc) should be communicated as `major` updates.
+Use [semantic versioning](http://semver.org/) (semvar) for communicating versions.
+
+*	Any new data types should be communicated as `minor` updates.
+*	Any corrections/value modifications should be `patches`.
+* 	Any specification restructuring (changing field names, removing fields, etc) should be communicated as a `major` update.
 
 
+===
 ## Usage
 
 The specification is stored as [JSON](http://json.org/), a lightweight data-interchange format. Many languages provide JSON support: [JavaScript](http://www.json.org/js.html), [Python](https://docs.python.org/2/library/json.html), [Go](http://golang.org/pkg/encoding/json/), [PHP](http://php.net/manual/en/book.json.php), [Java](http://json.org/java/), [Haskell](http://hackage.haskell.org/package/json), and [others](http://json.org/).
@@ -55,6 +96,10 @@ $ bower update doc-metrix-general
 
 
 ### Utilities
+
+List of utilities using this specification:
+
+*	[Node.js Module](https://github.com/doc-metrix/general-node)
 
 
 ---
