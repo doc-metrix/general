@@ -13,12 +13,12 @@ The average number of jobs in the run queue (state R) or waiting for disk I/O (s
 
 #### [load.5M](http://linux.die.net/man/5/proc)
 
-The average number of jobs in the run queue ( state R) or waiting for disk I/O (state D) over the past 5 minutes.
+The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 5 minutes.
 
 
 #### [load.15M](http://linux.die.net/man/5/proc)
 
-The average number of jobs in the run queue (State R) or waiting for disk I/O (state D) over the past 15 minutes.
+The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 15 minutes.
 
 
 #### [load.running](http://linux.die.net/man/5/proc)
