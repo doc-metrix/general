@@ -12,17 +12,25 @@ The average number of jobs in the run queue (state R) or waiting for disk I/O (s
 
 Min | Max | Units | Metric Type | Data Type 
 :---: | :---: | :---: | ---: | ---: |
-0 | `MAX_FLOAT` | processes and threads | raw | [numeric](https://github.com/doc-metrix/data-types#numeric)
+0 | `MAX_FLOAT` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [numeric](https://github.com/doc-metrix/data-types#numeric)
 
 
 #### [load.5M](http://linux.die.net/man/5/proc)
 
 The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 5 minutes.
 
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `MAX_FLOAT` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [numeric](https://github.com/doc-metrix/data-types#numeric)
+
 
 #### [load.15M](http://linux.die.net/man/5/proc)
 
 The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 15 minutes.
+
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `MAX_FLOAT` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [numeric](https://github.com/doc-metrix/data-types#numeric)
 
 
 #### [load.running](http://linux.die.net/man/5/proc)
@@ -31,20 +39,36 @@ The number of currently running kernel scheduled entities (processes and threads
 
 Note: the minimum value for this metric is 1, if we assume that the process monitoring the metric is counted.
 
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `null` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [integer](https://github.com/doc-metrix/data-types#integer)
+
 
 #### [load.threads](http://linux.die.net/man/5/proc)
 
 The number of kernel scheduled entities (processes and threads) that exist in the system.
+
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `null` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [integer](https://github.com/doc-metrix/data-types#integer)
 
 
 #### [load.lastPID](http://linux.die.net/man/5/proc)
 
 The process ID (PID) of the process that was most recently created on the system.
 
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+`null` | `null` | `null` | raw | [integer](https://github.com/doc-metrix/data-types#integer)
+
 
 #### [uptime](http://linux.die.net/man/5/proc)
 
 The amount of time (in seconds) that the system has been running since the last reboot.
+
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `MAX_FLOAT` | [s](https://github.com/doc-metrix/units#s) | raw | [time](https://github.com/doc-metrix/data-types#time)
 
 
 ===
