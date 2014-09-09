@@ -55,7 +55,7 @@ Min | Max | Units | Metric Type | Data Type
 
 #### [load.lastPID](http://linux.die.net/man/5/proc)
 
-The process ID (PID) of the process that was most recently created on the system.
+The process ID (`PID`) of the process that was most recently created on the system.
 
 Min | Max | Units | Metric Type | Data Type 
 :---: | :---: | :---: | ---: | ---: |
