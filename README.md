@@ -1,6 +1,6 @@
 General
 ===
-[![Tag][git-tag-image]][git-tag-url]
+
 
 > A specification for general performance metrics.
 
@@ -143,6 +143,6 @@ List of utilities using this specification:
 Copyright &copy; 2014. NodePrime.
 
 
-[git-tag-image]: https://img.shields.io/github/tag/doc-metrix/general.svg
+[git-tag-image]: http://img.shields.io/github/tag/doc-metrix/general.svg
 [git-tag-url]: https://github.com/doc-metrix/general/tags
 
