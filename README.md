@@ -12,7 +12,7 @@ The average number of jobs in the run queue (state R) or waiting for disk I/O (s
 
 Min | Max | Units | Metric Type | Data Type 
 :---: | :---: | :---: | ---: | ---: |
-0 | `MAX_FLOAT` | processes and threads | raw | numeric
+0 | `MAX_FLOAT` | processes and threads | raw | [numeric](https://github.com/doc-metrix/units#numeric)
 
 
 #### [load.5M](http://linux.die.net/man/5/proc)
