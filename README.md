@@ -10,6 +10,10 @@ General
 
 The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past minute.
 
+Min | Max | Units | Metric Type | Data Type 
+:---: | :---: | :---: | ---: | ---: |
+0 | `MAX_FLOAT` | processes and threads | raw | numeric
+
 
 #### [load.5M](http://linux.die.net/man/5/proc)
 
