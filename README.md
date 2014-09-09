@@ -41,7 +41,7 @@ Note: the minimum value for this metric is 1, if we assume that the process moni
 
 Min | Max | Units | Metric Type | Data Type 
 :---: | :---: | :---: | ---: | ---: |
-0 | `null` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [integer](https://github.com/doc-metrix/data-types#integer)
+1 | `null` | [processes and threads](https://github.com/doc-metrix/units#processes-and-threads) | raw | [integer](https://github.com/doc-metrix/data-types#integer)
 
 
 #### [load.threads](http://linux.die.net/man/5/proc)
