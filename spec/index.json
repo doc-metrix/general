@@ -1,5 +1,5 @@
 {    
-    "load.1M": {
+    "load.1m": {
         "displayName": "Average Load (1 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
@@ -21,7 +21,7 @@
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
         ]
     },
-    "load.5M": {
+    "load.5m": {
         "displayName": "Average Load (5 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
@@ -43,7 +43,7 @@
             "http://en.wikipedia.org/wiki/Load_%28computing%29"
         ]
     },
-    "load.15M": {
+    "load.15m": {
         "displayName": "Average Load (15 min)",
         "units": "processes and threads",
         "max": "MAX_FLOAT",
