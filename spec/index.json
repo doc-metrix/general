@@ -69,13 +69,13 @@
         "displayName": "Number of Processes and Threads Running",
         "units": "processes and threads",
         "max": null,
-        "min": 1,
+        "min": 0,
         "sigFigs": null,
         "dataType": "integer",
         "type": "raw",
         "formula": null,
         "description": "The number of currently running kernel scheduled entities (processes and threads).",
-        "notes": "The minimum is 1 assuming the process monitoring this metric is counted.",
+        "notes": "",
         "platforms": {
             "linux": ["/proc/loadavg"]
         },
