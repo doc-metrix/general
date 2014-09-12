@@ -1,7 +1,6 @@
 General
 ===
 
-
 > A specification for general performance metrics.
 
 
