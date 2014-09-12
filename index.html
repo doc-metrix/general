@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>General by doc-metrix</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>General Performance Metrics</title>
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/pygment_trac.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,7 +19,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>General</h1>
+        <h1>General Performance Metrics</h1>
         <p>Specification for general performance metrics.</p>
 
         <p class="view"><a href="https://github.com/doc-metrix/general">View the Project on GitHub <small>doc-metrix/general</small></a></p>
@@ -27,238 +31,18 @@
           <li><a href="https://github.com/doc-metrix/general">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
-      <section>
-        <h1>
-<a name="general" class="anchor" href="#general"><span class="octicon octicon-link"></span></a>General</h1>
-
-<blockquote>
-<p>A specification for general performance metrics.</p>
-</blockquote>
-
-<h2>
-<a name="metrics" class="anchor" href="#metrics"><span class="octicon octicon-link"></span></a>Metrics</h2>
-
-<h4>
-<a name="load1m" class="anchor" href="#load1m"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.1m</a>
-</h4>
-
-<p>The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past minute.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">0</td>
-<td align="center"><code>MAX_FLOAT</code></td>
-<td align="center">processes and threads</td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#numeric">numeric</a></td>
-</tr></tbody>
-</table><h4>
-<a name="load5m" class="anchor" href="#load5m"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.5m</a>
-</h4>
-
-<p>The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 5 minutes.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">0</td>
-<td align="center"><code>MAX_FLOAT</code></td>
-<td align="center">processes and threads</td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#numeric">numeric</a></td>
-</tr></tbody>
-</table><h4>
-<a name="load15m" class="anchor" href="#load15m"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.15m</a>
-</h4>
-
-<p>The average number of jobs in the run queue (state R) or waiting for disk I/O (state D) over the past 15 minutes.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">0</td>
-<td align="center"><code>MAX_FLOAT</code></td>
-<td align="center">processes and threads</td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#numeric">numeric</a></td>
-</tr></tbody>
-</table><h4>
-<a name="loadrunning" class="anchor" href="#loadrunning"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.running</a>
-</h4>
-
-<p>The number of currently running kernel scheduled entities (processes and threads).</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="center"><code>null</code></td>
-<td align="center">processes and threads</td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#integer">integer</a></td>
-</tr></tbody>
-</table><h4>
-<a name="loadthreads" class="anchor" href="#loadthreads"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.threads</a>
-</h4>
-
-<p>The number of kernel scheduled entities (processes and threads) that exist in the system.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">0</td>
-<td align="center"><code>null</code></td>
-<td align="center">processes and threads</td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#integer">integer</a></td>
-</tr></tbody>
-</table><h4>
-<a name="loadlastpid" class="anchor" href="#loadlastpid"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">load.lastPID</a>
-</h4>
-
-<p>The process ID (<code>pid</code>) of the process that was most recently created on the system.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center"><code>null</code></td>
-<td align="center"><code>null</code></td>
-<td align="center"><code>null</code></td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#integer">integer</a></td>
-</tr></tbody>
-</table><h4>
-<a name="uptime" class="anchor" href="#uptime"><span class="octicon octicon-link"></span></a><a href="http://linux.die.net/man/5/proc">uptime</a>
-</h4>
-
-<p>The amount of time (in seconds) that the system has been running since the last reboot.</p>
-
-<table>
-<thead><tr>
-<th align="center">Min</th>
-<th align="center">Max</th>
-<th align="center">Units</th>
-<th align="right">Metric Type</th>
-<th align="right">Data Type</th>
-</tr></thead>
-<tbody><tr>
-<td align="center">0</td>
-<td align="center"><code>MAX_FLOAT</code></td>
-<td align="center"><a href="https://github.com/doc-metrix/units#s">s</a></td>
-<td align="right">raw</td>
-<td align="right"><a href="https://github.com/doc-metrix/data-types#time">time</a></td>
-</tr></tbody>
-</table><h1></h1>
-
-<h2>
-<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
-
-<p>To contribute to this specification, see the contributing <a href="https://github.com/doc-metrix/contributing">guide</a>. Any updates to the specification should be tagged.</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>git tag -a &lt;major.minor.patch&gt; -m <span class="s2">"[UPDATE] version."</span>
-<span class="nv">$ </span>git push origin &lt;major.minor.patch&gt;
-</pre></div>
-
-<p>Use <a href="http://semver.org/">semantic versioning</a> (semvar) for communicating versions.</p>
-
-<ul>
-<li>  Any new metrics should be communicated as <code>minor</code> updates.</li>
-<li>  Any corrections/value modifications should be <code>patches</code>.</li>
-<li>  Any specification restructuring (changing field names, removing fields, etc) should be communicated as a <code>major</code> update.</li>
-</ul><h1></h1>
-
-<h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
-
-<p>The specification is stored as <a href="http://json.org/">JSON</a>, a lightweight data-interchange format. Many languages provide JSON support: <a href="http://www.json.org/js.html">JavaScript</a>, <a href="https://docs.python.org/2/library/json.html">Python</a>, <a href="http://golang.org/pkg/encoding/json/">Go</a>, <a href="http://php.net/manual/en/book.json.php">PHP</a>, <a href="http://json.org/java/">Java</a>, <a href="http://hackage.haskell.org/package/json">Haskell</a>, and <a href="http://json.org/">others</a>.</p>
-
-<p>You are free to use the JSON specification, as is. Simply copy the file and use accordingly.</p>
-
-<p>For those using package managers to manage dependencies, we provide package manager support, as outlined below.</p>
-
-<h3>
-<a name="bower" class="anchor" href="#bower"><span class="octicon octicon-link"></span></a>Bower</h3>
-
-<p>The specification is registered as a <a href="http://bower.io">Bower</a> package. Bower provides a straightforward means for managing dependencies.</p>
-
-<p>In order to use Bower, you must first install <a href="http://nodejs.org/">Node.js</a> and <a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Git</a>. Once the prerequisites are installed,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>npm install -g bower
-</pre></div>
-
-<p>To <a href="http://bower.io/docs/api/#install">install</a> the latest specification,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower install doc-metrix-general
-</pre></div>
-
-<p>Bower will place the specification in a <code>bower_components/</code> directory within the current working directory.</p>
-
-<p>To <a href="http://bower.io/docs/api/#update">update</a> to the latest specification,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower update doc-metrix-general
-</pre></div>
-
-<h3>
-<a name="utilities" class="anchor" href="#utilities"><span class="octicon octicon-link"></span></a>Utilities</h3>
-
-<p>List of utilities using this specification:</p>
-
-<ul>
-<li>  <a href="https://github.com/doc-metrix/general-node">Node.js Module</a>
-</li>
-</ul><hr><h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
-
-<p><a href="http://opensource.org/licenses/MIT">MIT license</a>. </p>
-
-<hr><h2>
-<a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h2>
-
-<p>Copyright © 2014. NodePrime.</p>
-      </section>
+      <section id="readme"></section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/doc-metrix">doc-metrix</a></p>
+        <p>This project is maintained by <a href="https://github.com/doc-metrix">doc-metrix</a> and initially sponsored by <a href="http://nodeprime.com">NodePrime.</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/scale.fix.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     
   </body>
 </html>
